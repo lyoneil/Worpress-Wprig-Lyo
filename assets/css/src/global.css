@@ -24,6 +24,7 @@
 @import "_reset.css";
 @import "_typography.css";
 @import "_elements.css";
+@import "_utility.css";
 @import "_links.css";
 
 /*--------------------------------------------------------------
@@ -848,4 +849,8 @@ nav div.wp-block-navigation__responsive-dialog {
 were hidden (via .neverending) before. */
 .infinity-end.neverending .site-footer {
 	display: block;
+}
+
+.wp-rig {
+	display:none;
 }
